@@ -24,7 +24,7 @@ public abstract  class AbstractLogger implements AppLogger
 				if(instance == null)
 				{
 					instance = this;
-					PropertyConfigurator.configure("log4j.properties");
+					//PropertyConfigurator.configure("log4j.properties");
 				}
 			}
 		}

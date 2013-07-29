@@ -1,0 +1,1179 @@
+2013-07-30 02:00:31 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:00:31 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:00:31 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:00:31 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:00:31 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:00:31 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:00:31 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:00:31 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:00:32 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:00:32 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:00:32 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:00:32 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:00:32 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:00:32 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:00:32 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:00:32 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:00:32 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:00:32 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:00:32 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:00:32 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:00:32 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:00:32 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:00:32 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:00:32 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:00:32 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:00:32 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:00:32 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:00:32 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:00:32 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:00:32 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:00:32 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:00:32 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:00:32 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:00:32 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:00:32 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:00:32 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:00:32 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:00:32 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:01:08 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:01:08 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:01:08 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:01:08 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:01:08 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:01:08 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:01:08 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:01:08 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:01:08 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:01:08 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:01:08 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:08 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:01:08 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:01:08 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:01:08 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:01:08 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:01:08 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:01:08 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:01:08 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:01:08 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:01:08 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:01:08 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:01:08 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:01:08 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:01:08 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:01:08 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:01:08 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:01:08 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:01:08 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:01:08 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:01:08 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:01:08 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:01:08 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:01:08 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:01:08 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:01:08 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:01:08 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:01:09 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:01:20 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:01:20 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:01:20 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:01:20 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:01:20 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:01:20 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:01:20 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:01:20 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:01:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:01:21 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:01:21 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:21 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:01:21 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:01:21 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:01:21 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:01:21 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:01:21 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:01:21 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:01:21 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:01:21 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:01:21 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:01:21 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:01:21 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:01:21 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:01:21 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:01:21 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:01:21 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:01:21 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:01:21 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:01:21 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:01:21 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:01:21 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:01:21 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:01:21 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:01:21 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:01:21 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:01:21 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:01:21 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:01:53 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:01:53 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:01:53 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:01:53 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:01:53 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:01:54 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:01:54 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:01:54 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:01:54 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:01:54 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:01:54 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:01:54 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:01:54 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:01:54 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:01:54 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:01:54 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:01:54 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:01:54 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:01:54 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:01:54 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:01:54 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:01:54 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:01:54 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:01:54 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:01:54 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:01:54 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:01:54 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:01:54 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:01:54 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:01:54 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:01:54 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:01:54 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:01:54 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:01:54 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:01:54 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:01:54 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:01:54 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:01:54 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:02:35 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:02:35 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:02:35 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:02:35 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:02:35 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:02:35 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:02:35 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:02:35 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:02:35 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:02:35 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:02:35 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:02:35 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:02:35 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:02:35 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:02:35 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:02:35 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:02:35 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:02:36 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:02:36 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:02:36 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:02:36 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:02:36 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:02:36 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:02:36 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:02:36 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:02:36 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:02:36 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:02:36 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:02:36 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:02:36 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:02:36 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:02:36 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:02:36 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:02:36 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:02:36 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:02:36 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:02:36 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:02:36 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:03:27 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:03:27 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:03:27 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:03:27 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:03:27 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:03:27 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:03:27 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:03:27 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:03:27 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:03:27 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:03:28 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:03:28 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:03:28 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:03:28 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:03:28 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:03:28 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:03:28 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:03:28 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:03:28 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:28 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:03:28 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:03:28 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:03:28 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:03:28 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:03:28 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:03:28 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:03:28 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:03:28 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:03:28 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:03:28 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:03:28 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:03:28 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:03:28 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:03:28 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:03:28 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:03:28 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:03:28 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:03:28 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:03:28 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:03:28 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:03:28 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:03:28 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:03:28 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:03:28 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:03:28 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:03:29 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:03:50 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:03:50 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:03:50 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:03:50 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:03:50 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:03:50 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:03:50 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:03:50 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:03:50 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:03:50 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:03:50 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:03:50 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:03:50 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:03:50 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:03:51 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:03:51 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:03:51 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:03:51 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:03:51 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:03:51 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:03:51 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:03:51 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:03:51 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:03:51 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:03:51 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:03:51 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:03:51 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:03:51 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:03:51 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:03:51 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:03:51 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:03:51 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:03:51 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:03:51 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:03:51 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:03:51 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:03:51 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:03:51 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:03:51 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:03:51 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:03:51 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:03:51 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:03:51 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:03:51 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:05:18 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:05:18 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:05:18 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:05:18 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:05:18 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:05:18 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:05:18 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:05:18 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:05:19 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:05:19 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:05:19 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:05:19 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:05:19 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:05:19 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:05:19 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:05:19 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:05:19 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:05:19 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:05:19 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:05:19 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:05:19 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:05:19 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:05:19 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:05:19 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:05:19 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:05:19 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:05:19 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:05:19 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:05:19 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:05:19 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:05:19 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:05:19 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:05:19 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:05:19 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:05:19 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:05:19 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:05:19 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:05:19 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-07-30 02:07:34 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2013-07-30 02:07:34 INFO  Environment:514 - Hibernate 3.2.5
+2013-07-30 02:07:34 INFO  Environment:547 - hibernate.properties not found
+2013-07-30 02:07:34 INFO  Environment:681 - Bytecode provider name : cglib
+2013-07-30 02:07:34 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-07-30 02:07:34 INFO  Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+2013-07-30 02:07:34 INFO  Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+2013-07-30 02:07:34 INFO  Configuration:1541 - Configured SessionFactory: null
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CertificateMappingTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CertificateMappingTbl on table certificate_mapping_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.CompanyTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.CompanyTbl on table company_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ContactTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ContactTbl on table contact_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EducationTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EducationTbl on table education_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.EmployerProfileTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.EmployerProfileTbl on table employer_profile_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ExperienceMapping
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ExperienceMapping on table experience_mapping
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.InstituteTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.InstituteTbl on table institute_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobTbl on table job_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.JobViewTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.JobViewTbl on table job_view_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.GenderTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.GenderTbl on table gender_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.IndustryTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.IndustryTbl on table industry_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinkTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinkTbl on table link_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LinktypeTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LinktypeTbl on table linktype_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTbl on table location_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.LocationTypeTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.LocationTypeTbl on table location_type_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.MappingGroup
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.MappingGroup on table mapping_group
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.PersonalTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.PersonalTbl on table personal_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfessionalTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfessionalTbl on table professional_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.ProfileTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.ProfileTbl on table profile_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationMapping
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationMapping on table qualification_mapping
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.QualificationTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.QualificationTbl on table qualification_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.RoleTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.RoleTbl on table role_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkillMapping
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkillMapping on table skill_mapping
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.SkilltypeTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.SkilltypeTbl on table skilltype_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.TechnologyTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.TechnologyTbl on table technology_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserRoleTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserRoleTbl on table user_role_tbl
+2013-07-30 02:07:34 INFO  AnnotationBinder:418 - Binding entity from annotated class: com.gojob.persistence.hibernatepojos.UserTbl
+2013-07-30 02:07:34 INFO  EntityBinder:424 - Bind entity com.gojob.persistence.hibernatepojos.UserTbl on table user_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.experienceMappings -> experience_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.CompanyTbl.jobTbls -> job_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.employerProfileTbls -> employer_profile_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ContactTbl.personalTbls -> personal_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.EducationTbl.profileTbls -> profile_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.InstituteTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.JobTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.GenderTbl.personalTbls -> personal_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.IndustryTbl.professionalTbls -> professional_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LinktypeTbl.linkTbls -> link_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.contactTbls -> contact_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.LocationTypeTbl.locationTbls -> location_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.certificateMappingTbls -> certificate_mapping_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.educationTbls -> education_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.experienceMappings -> experience_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.linkTbls -> link_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.MappingGroup.skillMappings -> skill_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.PersonalTbl.profileTbls -> profile_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.ProfessionalTbl.profileTbls -> profile_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.instituteTbls -> institute_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.profileTbls -> profile_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.qualificationMappings -> qualification_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.QualificationTbl.technologyTbls -> technology_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.RoleTbl.experienceMappings -> experience_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.SkilltypeTbl.skillMappings -> skill_mapping
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.TechnologyTbl.professionalTbls -> professional_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserRoleTbl.userTbls -> user_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobTbls -> job_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.jobViewTbls -> job_view_tbl
+2013-07-30 02:07:34 INFO  CollectionBinder:651 - Mapping collection: com.gojob.persistence.hibernatepojos.UserTbl.profileTbls -> profile_tbl
+2013-07-30 02:07:34 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2013-07-30 02:07:34 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2013-07-30 02:07:34 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2013-07-30 02:07:34 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2013-07-30 02:07:34 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/GoJob
+2013-07-30 02:07:34 INFO  DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+2013-07-30 02:07:34 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 5.0.45-community-nt
+2013-07-30 02:07:34 INFO  SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+2013-07-30 02:07:34 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2013-07-30 02:07:34 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2013-07-30 02:07:34 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-07-30 02:07:34 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:154 - JDBC batch size: 15
+2013-07-30 02:07:34 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2013-07-30 02:07:34 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2013-07-30 02:07:34 INFO  SettingsFactory:178 - Connection release mode: auto
+2013-07-30 02:07:34 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2013-07-30 02:07:34 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2013-07-30 02:07:34 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-07-30 02:07:34 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-07-30 02:07:34 INFO  SettingsFactory:225 - Query language substitutions: {}
+2013-07-30 02:07:34 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:235 - Second-level cache: enabled
+2013-07-30 02:07:34 INFO  SettingsFactory:239 - Query cache: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-07-30 02:07:34 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:290 - Statistics: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-07-30 02:07:34 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2013-07-30 02:07:34 INFO  SettingsFactory:313 - Named query checking : enabled
+2013-07-30 02:07:34 INFO  SessionFactoryImpl:161 - building session factory
+2013-07-30 02:07:34 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
