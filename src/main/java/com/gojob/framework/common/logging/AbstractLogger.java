@@ -1,5 +1,7 @@
 package com.gojob.framework.common.logging;
 
+import org.apache.log4j.PropertyConfigurator;
+
 import com.gojob.framework.common.FrameworkException;
 
 /*
@@ -22,7 +24,7 @@ public abstract  class AbstractLogger implements AppLogger
 				if(instance == null)
 				{
 					instance = this;
-					//TODO -- initialise log4j here
+					PropertyConfigurator.configure("log4j.properties");
 				}
 			}
 		}
@@ -36,7 +38,7 @@ public abstract  class AbstractLogger implements AppLogger
 	}
 	public static AppLogger getLogger(Class clazz)
 	{
-		//TODO
+		// Logger.getLogger(clazz)
 		return null;
 	}
 	public void error(String errorString)
