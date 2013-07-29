@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="GoJob"/>
+  <table-filter match-name="user_role_tbl"/>
+  <table-filter match-name="qualification_mapping"/>
+  <table-filter match-name="institute_tbl"/>
+  <table-filter match-name="link_tbl"/>
+  <table-filter match-name="qualification_tbl"/>
+  <table-filter match-name="education_tbl"/>
+  <table-filter match-name="role_tbl"/>
+  <table-filter match-name="location_type_tbl"/>
+  <table-filter match-name="experience_mapping"/>
+  <table-filter match-name="mapping_group"/>
+  <table-filter match-name="industry_tbl"/>
+  <table-filter match-name="gender_tbl"/>
+  <table-filter match-name="company_tbl"/>
+  <table-filter match-name="linktype_tbl"/>
+  <table-filter match-name="profile_tbl"/>
+  <table-filter match-name="skill_mapping"/>
+  <table-filter match-name="employer_profile_tbl"/>
+  <table-filter match-name="professional_tbl"/>
+  <table-filter match-name="job_tbl"/>
+  <table-filter match-name="job_view_tbl"/>
+  <table-filter match-name="certificate_mapping_tbl"/>
+  <table-filter match-name="technology_tbl"/>
+  <table-filter match-name="user_tbl"/>
+  <table-filter match-name="skilltype_tbl"/>
+  <table-filter match-name="location_tbl"/>
+  <table-filter match-name="contact_tbl"/>
+  <table-filter match-name="personal_tbl"/>
+</hibernate-reverse-engineering>

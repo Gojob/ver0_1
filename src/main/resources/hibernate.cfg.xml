@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/GoJob</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">welcome</property>
+    <mapping class="com.gojob.persistence.hibernatepojos.CertificateMappingTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.CompanyTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.ContactTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.EducationTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.EmployerProfileTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.ExperienceMapping"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.InstituteTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.JobTbl"/>
+    
+    <mapping class="com.gojob.persistence.hibernatepojos.JobViewTbl"/>
+    <mapping class="com.gojob.persistence.hibernatepojos.GenderTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.IndustryTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.LinkTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.LinktypeTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.LocationTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.LocationTypeTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.MappingGroup"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.PersonalTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.ProfessionalTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.ProfileTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.QualificationMapping"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.QualificationTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.RoleTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.SkillMapping"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.SkilltypeTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.TechnologyTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.UserRoleTbl"/>
+     <mapping class="com.gojob.persistence.hibernatepojos.UserTbl"/>
+     
+     
+  </session-factory>
+</hibernate-configuration>
