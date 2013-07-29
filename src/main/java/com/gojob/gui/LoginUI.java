@@ -5,6 +5,8 @@ import java.io.IOException;
 
 import com.gojob.business.login.LoginBean;
 import com.gojob.business.login.LoginController;
+import com.gojob.common.Constants;
+import com.gojob.framework.business.common.SimpleResponse;
 
 public class LoginUI {
 	
@@ -30,16 +32,17 @@ public class LoginUI {
 				{
 					LoginController lc = new LoginController(loginBean);
 					
-					if(lc.authenticate())
+					SimpleResponse simpleResponse = lc.authenticate();
+					System.out.println(simpleResponse.getStatusString());
+					
+					if(simpleResponse.getStatusCode() == Constants.SUCCESS_CODE)
 					{
-						System.out.println("Logged in");
 						printFirstPage();
 						break;
 
 					}
 					else
 					{
-						System.out.println("Login failed");
 						continue loop;
 					}
 				}

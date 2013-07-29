@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 
 import com.gojob.business.login.LoginBean;
 import com.gojob.business.login.LoginController;
+import com.gojob.common.Constants;
+import com.gojob.framework.business.common.SimpleResponse;
 
 public class CreateUserUI {
 
@@ -28,17 +30,13 @@ public class CreateUserUI {
 				{
 					LoginController lc = new LoginController(loginBean);
 					
-					boolean successful = lc.createUser();
-					if(successful)
+					SimpleResponse simpleResponse = lc.createUser();
+					System.out.println(simpleResponse.getStatusString());
+					if(simpleResponse.getStatusCode() == Constants.SUCCESS_CODE)
 					{
-						System.out.println("User " + loginBean.getUserName() + " created");
 						
 						System.out.println("Please login");
 						LoginUI.menu(inp);
-					}
-					else
-					{
-						System.out.println("Failed to create user");
 					}
 				}
 				else if(userInput.trim().equals("2"))

@@ -4,8 +4,10 @@ import java.util.List;
 
 import org.hibernate.Session;
 
+import com.gojob.common.ResponseUtil;
 import com.gojob.common.init.CachesUtil;
 import com.gojob.framework.business.AbstractBusinessController;
+import com.gojob.framework.business.common.SimpleResponse;
 import com.gojob.framework.persistence.util.HibernateUtil;
 import com.gojob.persistence.hibernatepojos.UserTbl;
 
@@ -18,8 +20,9 @@ public class LoginController extends AbstractBusinessController<LoginBean> {
 		this.bean = bean;
 	}
 	
-	public boolean authenticate()
+	public SimpleResponse authenticate()
 	{
+		
 		Session session = HibernateUtil.getSession();
 		//TODO -Change the query to fetch only user related data and not all user data
 		List<UserTbl> users = session.createQuery("from UserTbl").list();
@@ -29,14 +32,21 @@ public class LoginController extends AbstractBusinessController<LoginBean> {
 			if(user.getUserName().equals(bean.getUserName()))
 			{
 				if(user.getPassword().equals(bean.getPassword()))
-						return true;
+				{
+					SimpleResponse simpleResponse = ResponseUtil.createSuccessResponse();
+					simpleResponse.setStatusString("User " + bean.getUserName() + " successfully logged in ");
+					
+					return simpleResponse;
+				}
 			}
 		}
 		
-		return false;
+		SimpleResponse simpleResponse = ResponseUtil.createFailureResponse();
+		simpleResponse.setStatusString("Login denied for user " + bean.getUserName());
+		return simpleResponse;
 	}
 
-	public boolean createUser() {
+	public SimpleResponse createUser() {
 		
 		try{
 			System.out.println("User is asked to be created");
@@ -54,11 +64,17 @@ public class LoginController extends AbstractBusinessController<LoginBean> {
 			session.save(userTbl);
 			
 			session.getTransaction().commit();
-			return true;
+			
+			SimpleResponse simpleResponse = ResponseUtil.createSuccessResponse();
+			simpleResponse.setStatusString("User " + bean.getUserName() + " successfully created ");
+			
+			return simpleResponse;
 		}
 		catch (Exception e) {
-			System.out.println("Operation failed");
-			return false;
+
+			SimpleResponse simpleResponse = ResponseUtil.createFailureResponse();
+			simpleResponse.setStatusString("Failed to create user " + bean.getUserName());
+			return simpleResponse;
 		}
 		
 		
