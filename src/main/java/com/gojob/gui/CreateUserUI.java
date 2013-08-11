@@ -35,8 +35,11 @@ public class CreateUserUI {
 					if(simpleResponse.getStatusCode() == Constants.SUCCESS_CODE)
 					{
 						
-						System.out.println("Please login");
-						LoginUI.menu(inp);
+						//System.out.println("Please login");
+						System.out.println("Please Enter Personal Details of the User");
+						PersonalUI.personalDetails(inp);
+						
+						//LoginUI.menu(inp);
 					}
 				}
 				else if(userInput.trim().equals("2"))

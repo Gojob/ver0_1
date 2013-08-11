@@ -12,6 +12,9 @@ public class InitialiseHelper
 		
 		intialiseDB();
 		
+		CachesUtil cacheUtil = new CachesUtil();
+		cacheUtil.initialise();
+		
 		//TODO initialise cache	 by narendra
 	}
 	

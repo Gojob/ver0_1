@@ -61,6 +61,7 @@ public class GUIMain {
 	}
 
 	private static void printMenu() {
+		
 		System.out.println("Welcome to Gojob");
 		System.out.println("1> Login");
 		System.out.println("2> Forgot Password");
