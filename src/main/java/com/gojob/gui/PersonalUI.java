@@ -15,7 +15,7 @@ import com.gojob.persistence.hibernatepojos.LocationTbl;
 
 public class PersonalUI {
 
-	public static void personalDetails(BufferedReader inp) throws IOException {
+	public static void personalDetails(BufferedReader inp) throws IOException { 
 		PersonalBean personalBean = new PersonalBean();
 		GenderTbl genderBean = new GenderTbl();
 		ContactTbl contactBean = new ContactTbl();
@@ -50,14 +50,18 @@ public class PersonalUI {
 		if(simpleResponse.getStatusCode() == Constants.SUCCESS_CODE)
 		{
 			System.out.println("Success Can go to next Page Congrats!!!!!!!!!!");
+			try {
+				SchoolEducationalUI.schoolEducationalDetails(inp);
+			} catch (Exception e) { 
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		else if(simpleResponse.getStatusCode() == Constants.FAILED_CODE)
 		{
 			System.out.println("Failed to create personaldetails some pb");
 		}
-			
-		
-		
+
 		
 	}
 

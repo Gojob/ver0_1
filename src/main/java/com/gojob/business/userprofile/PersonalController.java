@@ -48,7 +48,7 @@ public class PersonalController extends AbstractBusinessController<PersonalBean>
 			session.getTransaction().commit();
 			
 			SimpleResponse simpleResponse = ResponseUtil.createSuccessResponse();
-			simpleResponse.setStatusString("User Personal Details successfully created ");
+			simpleResponse.setStatusString("User Personal Details successfully created");
 			
 			return simpleResponse;
 		}
